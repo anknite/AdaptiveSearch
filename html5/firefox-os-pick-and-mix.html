@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade">
+<!-- 
+  ^ a class of "fade" makes slides fade smoothly into one another
+ -->
+<!-- <html lang="en-US" class="nonumbers"> -->
+<!-- 
+  If you want no numbers on the slides add a "nonumbers" class 
+  to the HTML element.
+  Adding a class of "fade" will make slides fade into another. 
+-->
+<head>
+  <meta charset="UTF-8">
+  <title>Adaptive Search</title>
+<!-- 
+  If you upload your slides to the web, ensure that you have 
+  a good title - this shows up in search results and social
+  media links
+ -->
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    div[id$='bullets'].slide > div::after {
+      content: 'For Information only, do NOT present';
+      background: rgba(200,0,0,0.5);
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      padding: 5px 20px;
+      transform: rotate(90deg) translate(52%,-150px);
+      border-radius: 5px;
+    }
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    }
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Adaptive Search</h1>
+    <p class="footer">
+      Ankit, 
+       @anknite 
+    <br>
+    Gautham
+    @gauthraj
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p class="abstract">
+      <strong>Abstract: </strong>
+       Add your talk abstract here
+    </p>
+  </aside>
+
+<!-- 
+    Simply copy the whole block for each slide you want.
+  Special slides get extra classes. Each slide needs an ID 
+  to allow for bookmarking and target jumping.
+-->
+
+ 
+
+<!-- end slide block -->
+
+<!-- ===================================================================
+Firefox OS 
+======================================================================== -->
+
+  <div id="zomgfirefoxos" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Adaptive Search</h2>
+      </header>
+      <p class="footer">
+      Ankit, 
+       @anknite 
+    <br>
+    Gautham
+    @gauthraj
+    </p>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+
+  <div id="firefoxos" class="slide"><div>
+    <section>
+      <header>
+        <h2>Why do I need it?</h2>
+      </header>
+      <img src="pictures/as/question-mark.png" 
+           alt="Firefox OS" 
+           class="middle" height="450">
+    <footer class="notes">
+    <li>i don't know which app want.</li>
+    <li> I am searching for iron man. May be I want to go the iron man movie</li>
+    <li>I dont know the apps or website to search for the tickets </li>
+    <li>What do i do? </li>
+    
+    </footer>
+    </section>
+  </div></div>
+
+
+
+  
+
+  <div id="deserves" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Answer:Firefox OS's Adaptive search</h2>
+      </header>
+      <img src="pictures/as/adaptive-search.png" 
+           alt="Keep calm and trust HTML5" 
+           class="middle shadow" height="450">
+           <ul class="longlist">
+        <li></li>
+        <li>Its Unique !</li>
+        <li>Lets see how it works !</li>
+      </ul>
+    <footer class="notes">
+      only ffx os give you this easy search feature!
+      it dosent need you to know the spealling of something you need to search
+      search is easy just type in something famillier to your search
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="browser" class="slide"><div>
+    <section>
+      <header>
+        <h2>Lets see how it works !</h2>
+      </header>
+      <img src="pictures/as/thinking.jpg" 
+           alt="firefox" 
+           class="middle">
+    <footer class="notes">
+       
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="newmarket" class="slide h cover"><div>
+    <section>
+      <header>
+        <h2>Tap the home button.
+       </h2>
+      </header>
+      <img src="pictures/as/as1.png" 
+           alt="World wide web" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+          </footer>
+    </section>
+  </div></div>
+
+  <div id="newmark" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Swipe to the right to open the search screen.
+       </h2>
+      </header>
+      <img src="pictures/as/as1.png" 
+           alt="World wide web" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+          </footer>
+    </section>
+  </div></div>
+
+  <div id="new" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Search for what you need.
+       </h2>
+      </header>
+      <img src="pictures/as/as2.png" 
+           alt="World wide web" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+          </footer>
+    </section>
+  </div></div>
+
+  <div id="ne" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Tap what you see that is interesting to you. 
+       </h2>
+      </header>
+      <img src="pictures/as/as2.png" 
+           alt="World wide web" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+          </footer>
+    </section>
+  </div></div>
+
+  
+
+  <div id="forall" class="slide"><div>
+    <section>
+      <header>
+        <h2>Localized Search Results</h2>
+      </header>
+      <figure class="right shadow frame">
+        <img src="pictures/fxos/nokia-photos.jpg" 
+             alt="Nokia couldn't take photos"
+             height="400">
+      </figure>
+      <ul class="inner">
+        <li class="active"> Search in London will be different than search in Bangalore</li>
+        <li>Very affordable hardware</li>
+      </ul>
+      <footer class="notes">
+      <li>localised search, search in poland will be diff from search in india so less competition</li>
+       <li>your website can be listed as the best match
+no need to worry about ads.</li>
+<li>if you have a manifest file it will show up.</li>
+
+
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="webtech" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Try it before using it !</h2>
+      </header>
+      <img src="pictures/as/mobile.jpg" 
+           alt="firefox os emulator and source" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+   <li>   i don't know which app want. I am searching for iron man.</li>
+     <li>will give every thing that is related to iron man.
+     all apps, that is related with the search</li>
+    <li>i don't need to search categories of apps</li>
+   <li>if i want to book my movie ticket i don't need to search for a particular app, but adaptive search give me the ability to do it very easily</li>
+   <li>i want to reach my mobile device.  </li>
+   <li>Try it before e you use it. is the main aim here.</li>
+    </footer>
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+OPEN WEB APPS 
+======================================================================== -->
+
+  <div id="zomgopenapps" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Open Web Apps</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="fxapps" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks !</h2>
+      </header>
+      <img src="pictures/as/codepo8.jpg" class="middle" height="400" 
+           alt="Firefox OS apps">
+      <p class="demourl">
+        Thanks Codepo8</a>
+      </p>
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+   
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
